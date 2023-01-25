@@ -2,13 +2,13 @@
 
 #### 1. Clonar el repo.
 
-#### 2. Instalamos los paquetes y dependencias.
+#### 2. Paquetes y dependencias.
 
 ```
 npm i
 ```
 
-#### 3. Instalamos psql
+#### 3. psql
 
 > Psql nos permite conectarnos a bases Postgres mediante la consola.
 
@@ -60,11 +60,6 @@ Creamos la base:
 
 ```
 CREATE DATABASE desarrollo;
-```
-Nos pasamos a la base:
-
-```
-\c desarrollo;
 ```
 
 Salimos con:
