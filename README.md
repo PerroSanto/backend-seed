@@ -74,18 +74,18 @@ Salimos con:
 
 Tenemos que crear una copia del archivo .env.example en .env.
 
-#### Migrar el modelo a la base
+#### 7. Migrar el modelo a la base
 
 ```
 npx sequelize-cli db:migrate
 ```
-#### Cargar datos de prueba en la tabla
+#### 8. Cargar datos de prueba en la tabla
 
 ```
 npx sequelize-cli db:seed:all
 ```
 
-#### Arrancar el servidor
+#### 9. Arrancar el servidor
 
 Ejecutamos el código:
 
